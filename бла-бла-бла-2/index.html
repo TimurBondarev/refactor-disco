@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+        <title>BondarevTimur</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Raleway:wght@300&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    </head>
+    <body>
+		<header id='main'>
+			<div id='burger-box'>☰</div>
+			<nav class='menu'>
+				<ul>
+					<li><a href='#main'>Главная</a></li>
+					<li><a href='#about-me'>Обо мне</a></li>
+					<li><a href='#skills'>Навыки</a></li>
+					<li><a href='#contacts'>Контакты</a></li>
+					<li><a href='#about-site'>О сайте</a></li>
+				</ul>
+			</nav>	
+			<h1 class='_anim-items'>Здравствуйте, меня зовут Тимур<br> 
+				я начинающий веб-разработчик!
+			</h1>
+			<button><a href='#about-me'>Подробнее</a></button>
+		</header>
+		<main>
+			<section id='about-me'>
+				<div class='section' data-color="violet">
+					<div class="photo _anim_text"><img src='фотка.jpg'></div>
+					<div id='text-block'>
+						<h2 class='_anim_text'>Обо мне</h2>
+						<p class='_anim_text'>
+							<span>Образование.</span><br>
+							Закончил университет МГУПП по направлению "Прикладная информатика в экономике", имею степень бакалавра.<br>
+							<span>Личностные качества.</span><br>
+							-ответственно выполняю служебные обязанности и иные поручения руководства;<br>
+							-умею поддерживать диалог с клиентами компании действующими и потенциальными;<br>
+							-способен выдерживать интенсивный режим работы, включая выходные дни (при необходимости);<br>
+							-быстро осваиваю новые направления деятельности, овладеваю новыми навыками;<br>
+							-пунктуальный;<br>
+							-уделяю внимание порядку на рабочем месте;<br>
+							-не испытываю сложностей при налаживании контакта с коллегами.<br>
+						</p>
+					</div>
+					<button class='next-button'><a href='#skills'>Навыки</a></button>
+				</div>
+			</section>
+			<section id='skills'>
+				<div class='section' data-color="indigo">
+					<h2 class='_anim_text'>Навыки</h2>
+					<div class='skills-pazzle'>
+						<div id='pazzle-block-1' class='_anim_text pazzle-block'>HTML</div>
+						<div id='pazzle-block-2' class='_anim_text pazzle-block'>CSS</div>
+						<div id='pazzle-block-3' class='_anim_text pazzle-block'>JavaScript</div>
+						<div id='pazzle-block-4' class='_anim_text pazzle-block'>Python</div>
+						<div id='pazzle-block-5' class='_anim_text pazzle-block'>C++</div>
+						<div id='pazzle-block-6' class='_anim_text pazzle-block'>SQL</div>
+						<div id='pazzle-block-7' class='_anim_text pazzle-block'>Django</div>
+						<div id='pazzle-block-8' class='_anim_text pazzle-block'>Figma</div>
+					</div>
+					<button class='next-button'><a href='#contacts'>Контакты</a></button>
+				</div>
+			</section>
+			<section id='contacts'>
+				<div class='section'  data-color="blue">
+					<h2 class='_anim_text'>Контакты</h2>
+					<div id='contacts-box'>
+						<div class='contact _anim_text'><a href='https://vk.com/t_bondarev'><img src='vk_icon.svg'></a><span>Вконтакте</span></div>
+						<div class='contact _anim_text'><a href='https://t.me/TB0605'><img src='telegram_icon.svg'></a><span>Telegram</span></div>
+						<div class='contact _anim_text'><a href="mailto:bondarev_timur_u@mail.com"><img src='mail_icon.svg'></a><span>mail.ru</span></div>
+					</div>
+					<button class='next-button'><a href='#about-site'>О сайте</a></button>
+				</div>
+			</section>
+			<section id='about-site'>
+				<div class='section' data-color="orange">
+					<h2 class='_anim_text'>О сайте</h2>
+					<div id='about-site-text'>
+						<p class='_anim_text'>Данный сайт был создан мной для того чтобы наглядно показать уровень моих навыков в Frontend-разработке.<br>
+							Макет сайта был сделан в программе Figma. Все анимации были сделаны на чистом Javascript. <br>
+							В качестве редактора использовалась программа Notepad++.<br>
+						</p>
+					</div>
+					<a href='#' id='git-url'>Ссылка на git</a>
+					<button class='next-button'><a href='#main'>В начало</a></button>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<p>©2022BondarevTimur</p>
+		</footer>
+		<script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
